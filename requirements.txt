@@ -1,0 +1,9 @@
+# Student Early-Warning System (OULAD #99 + UCI Student Dropout #100)
+streamlit>=1.47
+pandas>=2.0
+numpy>=1.26
+scikit-learn>=1.4
+xgboost>=2.0
+shap>=0.44
+plotly>=5.20
+joblib>=1.3

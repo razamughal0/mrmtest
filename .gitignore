@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+.streamlit/secrets.toml
+data/app.db
+models/*.pkl
+!models/metrics.json
+.DS_Store
+*.log
