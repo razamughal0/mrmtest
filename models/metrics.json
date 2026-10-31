@@ -1,0 +1,95 @@
+{
+  "model": "XGBoost",
+  "accuracy": 0.7864,
+  "precision": 0.7289,
+  "recall": 0.7855,
+  "f1": 0.7561,
+  "roc_auc": 0.8552,
+  "selected_model": "XGBoost",
+  "n_students": 4424,
+  "n_train": 3539,
+  "n_test": 885,
+  "at_risk_rate": 0.4216,
+  "confusion_matrix": [
+    [
+      403,
+      109
+    ],
+    [
+      80,
+      293
+    ]
+  ],
+  "comparison": [
+    {
+      "model": "XGBoost",
+      "accuracy": 0.7864,
+      "precision": 0.7289,
+      "recall": 0.7855,
+      "f1": 0.7561,
+      "roc_auc": 0.8552
+    },
+    {
+      "model": "Random Forest",
+      "accuracy": 0.7864,
+      "precision": 0.7359,
+      "recall": 0.7694,
+      "f1": 0.7523,
+      "roc_auc": 0.859
+    },
+    {
+      "model": "Logistic Regression",
+      "accuracy": 0.7695,
+      "precision": 0.7026,
+      "recall": 0.7855,
+      "f1": 0.7418,
+      "roc_auc": 0.8572
+    }
+  ],
+  "shap_global_importance": {
+    "assignments_submitted": 0.6943,
+    "avg_quiz_score": 0.395,
+    "attendance_pct": 0.3511,
+    "vle_total_clicks": 0.3411,
+    "score_trend": 0.2374,
+    "avg_assignment_score": 0.2304,
+    "debtor": 0.187,
+    "late_submissions": 0.1296,
+    "prev_gpa": 0.1259,
+    "tuition_up_to_date": 0.1171,
+    "credits_enrolled": 0.1139,
+    "prev_sem_grade": 0.0942,
+    "resources_viewed": 0.0859,
+    "admission_grade": 0.0766,
+    "missing_submissions": 0.0753,
+    "scholarship_holder": 0.0681,
+    "quiz_attempts": 0.0526,
+    "credits_approved_prev_sem": 0.0507,
+    "first_generation": 0.0498,
+    "forum_posts": 0.0328,
+    "vle_active_days": 0.023
+  },
+  "features": [
+    "first_generation",
+    "scholarship_holder",
+    "debtor",
+    "tuition_up_to_date",
+    "admission_grade",
+    "prev_gpa",
+    "credits_enrolled",
+    "credits_approved_prev_sem",
+    "prev_sem_grade",
+    "attendance_pct",
+    "vle_total_clicks",
+    "vle_active_days",
+    "forum_posts",
+    "resources_viewed",
+    "quiz_attempts",
+    "avg_quiz_score",
+    "assignments_submitted",
+    "late_submissions",
+    "missing_submissions",
+    "avg_assignment_score",
+    "score_trend"
+  ]
+}
